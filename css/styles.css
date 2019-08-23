@@ -1,0 +1,119 @@
+
+*{
+    box-sizing: border-box;
+    margin: 3px;
+    padding: 0;
+}
+.main {
+    display: inline;
+    border: 1px solid rgb(250, 245, 245);
+    background-color:rgba(250, 247, 246, 0.89);
+}
+.header {
+    background-color: rgb(76, 192, 238);
+    height: 100px;
+}
+#searchBar {
+    border: 1px solid #000000;
+    border-right: none;
+    font-size:16px;
+    padding:10px;
+    outline:none;
+    width:500px;
+    -webkit-border-top-left-radius:10px;
+    -webkit-border-bottom-left-radius:10px;
+    -moz-border-radius-topleft:10PX;
+    -moz-border-radius-bottomleft:10px;
+    border-top-left-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+#searchBtn {
+    border: 1px solid #000000;
+    font-size: 16px;
+    padding: #f1d829;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    -webkit-border-top-right-radius:10px;
+    -webkit-border-bottom-right-radius:10px;
+    -moz-border-radius-topright:10PX;
+    -moz-border-radius-bottomrightt:10px;
+    border-top-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#searchBtn:hover{
+    background:#f6e049; 
+}
+
+input[type=search]{
+    border: 0px solid rgb(8, 59, 212);
+    border-radius: 15px;
+    width: 30%;
+    padding: 5px 20px;
+    margin-top: 30px;
+    margin-left: 5px;
+    float: left;
+}
+.game-body {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: space-around;
+    padding: 20px;
+}
+.items {
+    width: 200px;
+    height: 300px;
+    background: rgb(252, 247, 247);
+    border-radius: 6px;
+    border: 1px solid rgb(247, 244, 244);
+    text-align: left;
+    padding: 10px;
+    position: relative;
+}
+.items2 {
+    width: 200px;
+    height: 300px;
+    background: rgb(250, 246, 249);
+    border-radius: 6px;
+    border: 1px solid rgb(250, 247, 247);
+    padding: 10px;
+    position: relative;
+}
+.items3 {
+    width: 200px;
+    height: 300px;
+    background: rgb(246, 247, 248);
+    border-radius: 6px;
+    border: 1px solid rgb(17, 1, 1);
+    padding: 10px;
+    position: relative;
+}
+.img-item img {
+    float: right; 
+    margin: 0px 10px 10px 0px;
+}
+.score {
+    position:absolute;
+    bottom:4px;
+    right:10px;
+    color: rgb(247, 0, 255);
+}
+.genre {
+    position: absolute;
+    bottom: 4px;
+    left: 10px;
+}
+.genre span {
+    font-weight: 500;
+}
+.star {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+table {
+    border-collapse: collapse;
+    border-style: hidden;
+  } 
